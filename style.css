@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    width:100px;
+    height: 100px;
+}
+.container{
+    width:60%;
+    margin: auto;
+    /* padding-bottom: 5rem; */
+  
+}
+
+
+.form-group{
+    position: relative;
+}
+.form-group i{
+   position: absolute;
+   top:43px;
+   right:10px;
+   visibility: hidden;
+}
+.form-group small{
+    position: absolute;
+    left: 5px;
+    margin-top:2px;
+    visibility:hidden;
+}
+
+
+
+.form-group.success input{
+    border:1px solid #2ecc71;
+  }
+  .form-group.error input{
+      border:1px solid #e74c3c;
+  }
+  .form-group.success i.fa-check-circle{
+     visibility:visible;
+     color: #2ecc71;
+  }
+  .form-group.error .fa-exclamation-circle{
+      visibility:visible;
+      color: #e74c3c;
+   }
+  
+  .form-group.error small{
+      visibility:visible;
+      color: #e74c3c;   
+   }
+   

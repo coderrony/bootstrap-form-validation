@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+  </head>
+  <body class="bg-light">
+   
+    <div class="container">
+       <div class="my-5 text-center">
+        <img class="img-fluid mx-auto " src="https://p.kindpng.com/picc/s/171-1718046_javascript-programming-language-logo-hd-png-download.png" alt="">
+        <h2 class="lead">form validation and Handling</h2>
+          <h3 class="lead">Used By Javascript</h3>
+       </div>
+       <form  action="https://formspree.io/ronydas3030@gmail.com"
+       method="POST" id="forms">
+       
+           <div class="row g-9">
+               <div class="col-sm-4">
+                <div class="form-group mt-4 ">
+                    <label for="firstName" class="form-label text-dark">Last Name</label>
+                    <input type="text" placeholder="First name" id="firstName" name="firstName" class="form-control">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>sss</small>
+                </div>
+               </div>
+               <div class="col-sm-4">
+                <div class="form-group mt-4 ">
+                    <label for="lastName" class="form-label text-dark">Last Name</label>
+                    <input type="text" placeholder="Last Name" id="lastName" name="lastName" class="form-control">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+               </div>
+               <div class="col-sm-4">
+                <div class="form-group mt-4 ">
+                    <label for="password" class="form-label text-dark">Password</label>
+                    <input type="text" placeholder="Password" id="password" name="password" class="form-control">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+               </div>
+               <div class="col-6">
+                <div class="form-group ">
+                    <label for="username" class="form-label text-dark">User Name</label>
+                     <input type="text" placeholder="User Name" id="username" name="username" class="form-control">
+                   <i class="fas fa-check-circle"></i>
+                   <i class="fas fa-exclamation-circle"></i>
+                   <small></small>
+                </div>
+               </div>
+               <div class="col-6">
+                <div class="form-group">
+                    <label for="email" class="form-label text-dark">Your Email</label>
+                     <input type="email" placeholder="Your Email" id="email" name="email" class="form-control">
+                   <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="form-group ">
+                  <label for="country">Selected Your Country</label>
+                  <select id="country" class="form-control" name="country">
+                
+                     <option value="bangladesh">Bangladesh</option>
+                     <option value="india">India</option>
+                     <option value="usa">Usa</option>
+                     <option value="nepal">Nepal</option>
+                  </select>
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small></small>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="form-group ">
+                  <label for="state">Selected Your State</label>
+                  <select id="state" class="form-control" name="state">
+                   
+                     <option value="BD">Bd</option>
+                     <option value="india">IND</option>
+                     <option value="usa">Us</option>
+                     <option value="nepal">Nep</option>
+                  </select>
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small></small>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="form-group">
+                  <label for="postcode">Postcode</label>
+                   <input type="number" id="postcode" class="form-control" placeholder="123" name="postcode">
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small></small>
+                </div>
+               </div>
+               <div class="col-12">
+                <hr class="my-3" >
+                <div class="form-check">
+                   <input type="checkbox" id="checkbox1" class="form-check-input" name="checkbox1">
+                   <label for="checkbox1" class="form-check-label">Shipping address</label>
+                </div>
+               </div>
+               <div class="col-12">
+                <div class="form-check">
+                   <input type="checkbox" id="checkbox2" class="form-check-input" name="checkbox2">
+                   <label for="checkbox2" class="form-check-label">Safe this Info</label>
+                </div>
+                <hr class="my-3" >
+               </div>
+               <div class="col-12">
+                   <h5 class="mb-3">Payment Method</h5>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="CreditCard1" name="paymentMethod">
+                  <label for="creditCard">CreditCard</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="CreditCard2" name="paymentMethod">
+                  <label for="creditCard2">Direct Debit</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="paypal" name="paymentMethod">
+                  <label for="paypal">PayPal</label>
+                </div>
+           </div>
+           <div class="col-sm-6">
+            <div class="form-group">
+                <label for="cardName" class="form-label">Name On Card</label>
+                <input type="text"id="cardName1" name="cardName1" class="form-control">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small></small>
+            </div>
+           </div>
+           <div class="col-sm-6">
+            <div class="form-group">
+                <label for="cardName2" class="form-label text-dark">Credit Card Number</label>
+                <input type="text"id="cardName2" name="cardName2" class="form-control">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small></small>
+            </div>
+           </div>
+           <div class="col-sm-4">
+            <div class="form-group">
+                <label for="expire" class="form-label text-dark">Expiration</label>
+                <input type="text"id="expire" name="expire" class="form-control">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small></small>
+            </div>
+           </div>
+           <div class="col-sm-4">
+            <div class="form-group">
+                <label for="cv" class="form-label text-dark">CVV</label>
+                <input type="text"id="cv" name="cv" class="form-control">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small></small>
+            </div>
+           </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
+       </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/b99cc3b6f3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
